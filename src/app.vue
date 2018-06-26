@@ -1,23 +1,12 @@
+<style scoped>
+
+</style>
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+
 </template>
 <script>
-    export default {
-        data() {
-            return {
+  import MainLayout from './views/containers/MainLayout'
+  export default {
 
-            };
-        },
-        mounted() {
-
-        },
-        beforeDestroy() {
-
-        },
-        methods: {
-
-        }
-    };
+  }
 </script>
